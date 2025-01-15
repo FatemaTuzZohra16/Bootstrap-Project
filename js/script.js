@@ -12,4 +12,15 @@ $('.reviewslider').slick({
 
     centerMode: true,
     centerPadding: '0px',
-});
+
+
+    responsive: [
+        {
+          breakpoint: 575.98,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          }
+        },
+      ]
+    });

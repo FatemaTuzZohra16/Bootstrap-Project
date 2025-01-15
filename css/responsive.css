@@ -1,0 +1,267 @@
+@media (min-width: 320px) and (max-width: 575.98px) { 
+    #bannar_part {
+        padding: 150px 0 53px;
+    }
+#bannar_part .container h2 {
+        font-size: 34px;
+        line-height: 105%;
+ }
+ #bannar_part .container p {
+	font-size: 13px;
+	margin: 25px 0 20px;
+}
+.slick-dots {
+	bottom: 120px;
+}
+.slick-dots {
+	bottom: 20px;
+}
+/* ........success part..................... */
+#success {
+	padding: 30px 0 30px;
+}
+#success .row .left h3 {
+	font-size: 20px;
+    text-align: center;
+}
+#success .row .left h2 {
+	font-size: 22px;
+    text-align: center;
+}
+#success .row .right{
+    flex-direction: column;
+}
+#success .row .right .child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+#success .row .right h2 {
+	font-size: 25px;
+}
+#success .row .right p {
+	margin-top: 10px;
+}
+/* .........servise part.......... */
+.title h2 {
+	font-size: 33px;
+	margin-bottom: 10px;
+}
+.title p {
+	font-size: 14px;
+	line-height: 22px;
+}
+#service .child {
+	padding: 30px 49px 5.66px;
+	border-radius: 10px;
+}
+.cards img {
+	margin-bottom: 20px;
+}
+.cards h3 {
+	font-size: 21px;
+}
+.cards p {
+	font-size: 11px;
+	line-height: 22px;
+	margin: 10px auto 20px;
+}
+/* .......work part......... */
+#work {
+	padding: 30px 0;
+	margin-top: 10px;
+}
+.title {
+	margin-bottom: 20px;
+}
+.title h2 {
+	font-size: 27px;
+	margin-bottom: 7px;
+}
+#work .title p {
+	margin-bottom: 30px;
+	font-size: 12px;
+}
+#work .card h3 {
+	font-size: 18px;
+	margin: 20px 0 6px;
+}
+#work .card p {
+	font-size: 11px;
+	line-height: 19px;
+	padding: 0 42px 17px;
+}
+/* ........choose part........... */
+#choose {
+	padding: 15px 0 40px;
+}
+#choose .title p {
+	padding: 0 0px;
+	margin-bottom: 50px;
+	font-size: 13px;
+}
+#choose .left{
+    background: url(../images/chooser.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+#choose .left::after{
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+
+}
+#choose .left .child {
+	margin-bottom: 10px;
+	text-align: center;
+}
+#choose .left h3 {
+    margin: 10px 0 4px;
+	font-size: 22px;
+    color: white;
+}
+#choose .left p {
+	font-size: 12px;
+    line-height: 21px;
+    color: antiquewhite;
+}
+#choose .right img {
+	width: 100%;
+	display: none;
+}
+/* .......review part............ */
+#Review {
+	padding-bottom: 50px;
+}
+.title h2 {
+	font-size: 23px;
+	margin-bottom: 5px;
+}
+#Review .title p {
+	padding: 0 0px;
+	margin-bottom: 0;
+    font-size: 12px;
+    line-height: 18px;
+}
+#Review .reviewslider .slide {
+	padding: 50px 30px;
+	border-radius: 20px;
+}
+#Review .slide p {
+	margin: 16px 0;
+	font-size: 14px;
+	line-height: 20px;
+}
+#Review .slide .icon {
+	margin-bottom: 18px;
+	font-size: 20px;
+}
+#Review .reviewslider .text h4 {
+	font-size: 18px;
+}
+#Review .reviewslider .text p {
+	font-size: 13px;
+	line-height: 23px;
+}
+#Review .reviewslider .leftarrow{
+    left: 30px;
+    top: 100%;
+	transform: translateY(-50%);
+    background-color: darkgray;
+    border-radius: 25%;
+}
+#Review .reviewslider .rightarrow {
+	right: 30px;
+	top: 100%;
+	transform: translateY(-50%);
+	background-color: darkgray;
+	border-radius: 25%;
+}
+/* ..........desing part............. */
+#design {
+	padding: 35px 0 35px;
+}
+.title h2 {
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+.title p {
+	font-size: 11px;
+	line-height: 19px;
+}
+#design .title p:first-child {
+	margin: 20px 0 11px;
+}
+#design .right .card {
+	padding: 25px 15px 25px;
+	border-radius: 15px;
+	border: 0;
+}
+#design .right .card h3 {
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+#design .right .card label {
+	font-size: 14px;
+	line-height: 20px;
+}
+#design .right .card input {
+	padding: 10px 15px;
+	font-size: 14px;
+	line-height: 23px;
+	border-radius: 5px;
+	margin: 10px 0 10px;
+}
+#design .right .custombtn {
+	padding: 10px 5px;
+	font-size: 14px;
+	line-height: 22px;
+	border-radius: 5px;
+}
+/* .........foter part............. */
+#footer {
+	padding: 40px 0 30px;
+}
+#footer .container .row .f1 img {
+	margin-left: 60px;
+}
+#footer .container .row .f1 p {
+	font-size: 11px;
+	line-height: 22px;
+	margin-top: 15px;
+	padding-right: 6px;
+    margin-bottom: 10px;
+}
+#footer .footerRight {
+	gap: 15px;
+	flex-direction: column;
+	text-align: center;
+}
+#footer .container .footerRight ul h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+#footer .container .footerRight ul li a {
+	font-size: 11px;
+	line-height: 25px;
+	margin-bottom: 40px;
+}
+#footer .container p {
+	font-size: 12px;
+	line-height: 22px;
+}
+}
+
+
