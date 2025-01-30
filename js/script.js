@@ -16,6 +16,20 @@ $('.reviewslider').slick({
 
     responsive: [
         {
+          breakpoint: 991.98,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          }
+        },
+        {
+          breakpoint: 767.98,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          }
+        },
+        {
           breakpoint: 575.98,
           settings: {
             slidesToShow: 1,

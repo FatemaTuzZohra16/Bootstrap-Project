@@ -1,5 +1,40 @@
 @media (min-width: 320px) and (max-width: 575.98px) { 
-    #bannar_part {
+	.navbar-toggler:focus {
+		box-shadow: none !important;
+	}
+	.navbar-toggler i {
+		color: var(--praimaricolor);
+		outline: 0;
+		border: 0;
+	}
+	.navbar .navbar-nav {
+		column-gap: 0;
+	 }
+	.navbar-nav{
+		padding: 15px;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		row-gap: 8px;
+		background-color: #ffffff;
+		box-shadow: 0px 0px 14px rgb(231 198 198)
+	}
+	.navbar-nav li{
+		background-color:   #7b3691;
+		padding: 5px;
+		width: 48%;
+		border-radius: 3px;
+		border-radius: 5px;
+	}
+	.navbar .custombtn{
+		padding: 10px 42px;
+		font-size: 16px;
+		line-height: 20px;
+		border-radius: 8px;
+		width: 100%;
+	}
+	/* .......navbar end............... */
+	#bannar_part {
         padding: 150px 0 53px;
     }
 #bannar_part .container h2 {
@@ -257,6 +292,945 @@
 	font-size: 11px;
 	line-height: 25px;
 	margin-bottom: 40px;
+}
+#footer .container p {
+	font-size: 12px;
+	line-height: 22px;
+}
+}
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.navbar-toggler:focus {
+		box-shadow: none !important;
+	}
+	.navbar-toggler i {
+		color: var(--praimaricolor);
+		outline: 0;
+		border: 0;
+	}
+	.navbar .navbar-nav {
+		column-gap: 0;
+	 }
+	.navbar-nav{
+		padding: 15px;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		row-gap: 8px;
+		background-color: #ffffff;
+		box-shadow: 0px 0px 14px rgb(231 198 198)
+	}
+	.navbar-nav li{
+		background-color:   #7b3691;
+		padding: 5px;
+		width: 48%;
+		border-radius: 3px;
+		border-radius: 5px;
+	}
+	.navbar .custombtn{
+		padding: 10px 42px;
+		font-size: 16px;
+		line-height: 20px;
+		border-radius: 8px;
+		width: 100%;
+	}
+	/* .......navbar end............... */
+	/* .........bannar start.............. */
+	#bannar_part {
+        padding: 150px 0 65px;
+    }
+	#bannar_part .container h2 {
+		font-size: 40px;
+		line-height: 107%;
+	}
+	#bannar_part .container p {
+		font-size: 16px;
+		margin: 27px 0 27px;
+	}
+	.slick-dots {
+		bottom: 22px;
+	}
+.slick-dots {
+	bottom: 20px;
+}
+/* ........success part..................... */
+#success {
+	padding: 30px 0 50px;
+}
+#success .row {
+	padding: 88px 37px 50px 25px;
+	border-radius: 15px;
+}
+#success .row .left h3 {
+	font-size: 20px;
+    text-align: center;
+}
+#success .row .left h2 {
+	font-size: 22px;
+    text-align: center;
+}
+#success .row .right {
+	flex-direction: row;
+	padding-top: 50px;
+}
+#success .row .right .child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+#success .row .right h2 {
+	font-size: 25px;
+}
+#success .row .right p {
+	margin-top: 10px;
+}
+/* .........servise part.......... */
+.title h2 {
+	font-size: 33px;
+	margin-bottom: 10px;
+}
+.title p {
+	font-size: 14px;
+	line-height: 22px;
+}
+#service .child {
+	padding: 30px 49px 5.66px;
+	border-radius: 10px;
+}
+.cards img {
+	margin-bottom: 15px;
+	height: 40px;
+}
+.cards h3 {
+	font-size: 18px;
+}
+.cards p {
+	font-size: 11px;
+	line-height: 22px;
+	margin: 10px auto 20px;
+}
+/* .......work part......... */
+#work {
+	padding: 30px 0;
+	margin-top: 10px;
+}
+.title {
+	margin-bottom: 20px;
+}
+.title h2 {
+	font-size: 27px;
+	margin-bottom: 7px;
+}
+#work .title p {
+	margin-bottom: 30px;
+	font-size: 12px;
+}
+#work .card h3 {
+	font-size: 18px;
+	margin: 20px 0 6px;
+}
+#work .card p {
+	font-size: 11px;
+	line-height: 19px;
+	padding: 0 42px 17px;
+}
+/* ........choose part........... */
+#choose {
+	padding: 45px 0 45px;
+}
+#choose .title p {
+	padding: 0 0px;
+	margin-bottom: 50px;
+	font-size: 14px;
+}
+#choose .left{
+    background: url(../images/chooser.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+#choose .left::after{
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+
+}
+#choose .left .child {
+	margin-bottom: 10px;
+	text-align: center;
+}
+#choose .left h3 {
+    margin: 10px 0 4px;
+	font-size: 22px;
+    color: white;
+}
+#choose .left p {
+	font-size: 12px;
+    line-height: 21px;
+    color: antiquewhite;
+}
+#choose .right img {
+	width: 100%;
+	display: none;
+}
+/* .......review part............ */
+#Review {
+	padding-bottom: 50px;
+}
+.title h2 {
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+#Review .title p {
+	padding: 0 0px;
+	margin-bottom: 0;
+	font-size: 15px;
+	line-height: 20px;
+}
+#Review .reviewslider .slide {
+	padding: 31px 30px;
+	border-radius: 20px;
+	background-color: #F4EFEF;
+}
+#Review .slide p {
+	margin: 16px 0;
+	font-size: 14px;
+	line-height: 20px;
+}
+#Review .slide .icon {
+	margin-bottom: 18px;
+	font-size: 20px;
+}
+#Review .reviewslider .text h4 {
+	font-size: 18px;
+}
+#Review .reviewslider .text p {
+	font-size: 13px;
+	line-height: 23px;
+}
+#Review .reviewslider .leftarrow{
+    left: 30px;
+    top: 100%;
+	transform: translateY(-50%);
+    background-color: darkgray;
+    border-radius: 25%;
+}
+#Review .reviewslider .rightarrow {
+	right: 30px;
+	top: 100%;
+	transform: translateY(-50%);
+	background-color: darkgray;
+	border-radius: 25%;
+}
+/* ..........desing part............. */
+#design {
+	padding: 35px 0 35px;
+}
+.title h2 {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.title p {
+	font-size: 15px;
+	line-height: 21px;
+}
+#design .title p:first-child {
+	margin: 20px 0 11px;
+}
+#design .right .card {
+	padding: 25px 35px 25px;
+	border-radius: 15px;
+	border: 0;
+}
+#design .right .card h3 {
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+#design .right .card label {
+	font-size: 14px;
+	line-height: 20px;
+}
+#design .right .card input {
+	padding: 10px 15px;
+	font-size: 14px;
+	line-height: 23px;
+	border-radius: 5px;
+	margin: 10px 0 15px;
+}
+#design .right .custombtn {
+	padding: 14px 5px;
+	font-size: 14px;
+	line-height: 22px;
+	border-radius: 5px;
+}
+/* .........foter part............. */
+#footer {
+	padding: 40px 0 30px;
+}
+#footer .container .row .f1 img {
+	margin-left: 187px;
+}
+#footer .container .row .f1 p {
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 15px;
+	padding-right: 6px;
+	margin-bottom: 15px;
+}
+#footer .footerRight {
+	gap: 0;
+	flex-wrap: wrap;
+}
+#footer .container .footerRight ul {
+	width: 50%;
+	margin-top: 25px;
+}
+#footer .container .footerRight ul h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+#footer .container .footerRight ul li a {
+	font-size: 11px;
+	line-height: 25px;
+	margin-bottom: 40px;
+}
+#footer .container p {
+	font-size: 12px;
+	line-height: 22px;
+}
+}
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	.navbar-toggler:focus {
+		box-shadow: none !important;
+	}
+	.navbar-toggler i {
+		color: var(--praimaricolor);
+		outline: 0;
+		border: 0;
+	}
+	.navbar .navbar-nav {
+		column-gap: 0;
+	 }
+	.navbar-nav{
+		padding: 15px;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		row-gap: 8px;
+		background-color: #ffffff;
+		width: 100%;
+		box-shadow: 0px 0px 14px rgb(231 198 198)
+	}
+	.navbar-nav li{
+		background-color:   #7b3691;
+		padding: 5px;
+		width: 48%;
+		border-radius: 3px;
+		border-radius: 5px;
+	}
+	.navbar .custombtn{
+		padding: 10px 42px;
+		font-size: 16px;
+		line-height: 20px;
+		border-radius: 8px;
+		width: 100%;
+	}
+	/* .......navbar end............... */
+	/* .........bannar start.............. */
+	#bannar_part {
+        padding: 150px 0 65px;
+    }
+	#bannar_part .container h2 {
+		font-size: 48px;
+		line-height: 107%;
+	}
+	#bannar_part .container p {
+		font-size: 18px;
+		margin: 27px 0 27px;
+	}
+	.slick-dots {
+		bottom: 22px;
+	}
+.slick-dots {
+	bottom: 20px;
+}
+/* ........success part..................... */
+#success {
+	padding: 30px 0 50px;
+}
+#success .row {
+	padding: 88px 37px 50px 25px;
+	border-radius: 15px;
+}
+#success .row .left h3 {
+	font-size: 22px;
+    text-align: center;
+}
+#success .row .left h2 {
+	font-size: 22px;
+    text-align: center;
+}
+#success .row .right {
+	flex-direction: row;
+	padding-top: 50px;
+}
+#success .row .right .child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+#success .row .right h2 {
+	font-size: 25px;
+}
+#success .row .right p {
+	margin-top: 10px;
+}
+/* .........servise part.......... */
+.title h2 {
+	font-size: 33px;
+	margin-bottom: 10px;
+}
+.title p {
+	font-size: 14px;
+	line-height: 22px;
+}
+#service .child {
+	padding: 30px 49px 5.66px;
+	border-radius: 10px;
+}
+.cards img {
+	margin-bottom: 15px;
+	height: 40px;
+}
+.cards h3 {
+	font-size: 18px;
+}
+.cards p {
+	font-size: 11px;
+	line-height: 22px;
+	margin: 10px auto 20px;
+}
+/* .......work part......... */
+#work {
+	padding: 30px 0;
+	margin-top: 10px;
+}
+.title {
+	margin-bottom: 20px;
+}
+.title h2 {
+	font-size: 27px;
+	margin-bottom: 7px;
+}
+#work .title p {
+	margin-bottom: 30px;
+	font-size: 12px;
+}
+#work .card h3 {
+	font-size: 18px;
+	margin: 20px 0 6px;
+}
+#work .card p {
+	font-size: 11px;
+	line-height: 19px;
+	padding: 0 42px 17px;
+}
+/* ........choose part........... */
+#choose {
+	padding: 45px 0 45px;
+}
+#choose .title p {
+	padding: 0 0px;
+	margin-bottom: 50px;
+	font-size: 14px;
+}
+#choose .left{
+    background: url(../images/chooser.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+#choose .left::after{
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+
+}
+#choose .left .child {
+	margin-bottom: 10px;
+	text-align: center;
+}
+#choose .left h3 {
+    margin: 10px 0 4px;
+	font-size: 22px;
+    color: white;
+}
+#choose .left p {
+	font-size: 12px;
+    line-height: 21px;
+    color: antiquewhite;
+}
+#choose .right img {
+	width: 100%;
+	display: none;
+}
+/* .......review part............ */
+#Review {
+	padding-bottom: 50px;
+}
+.title h2 {
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+#Review .title p {
+	padding: 0 0px;
+	margin-bottom: 0;
+	font-size: 15px;
+	line-height: 20px;
+}
+#Review .reviewslider .slide {
+	padding: 31px 30px;
+	border-radius: 20px;
+	background-color: #F4EFEF;
+}
+#Review .slide p {
+	margin: 16px 0;
+	font-size: 14px;
+	line-height: 20px;
+}
+#Review .slide .icon {
+	margin-bottom: 18px;
+	font-size: 20px;
+}
+#Review .reviewslider .text h4 {
+	font-size: 18px;
+}
+#Review .reviewslider .text p {
+	font-size: 13px;
+	line-height: 23px;
+}
+#Review .reviewslider .leftarrow{
+    left: 30px;
+    top: 100%;
+	transform: translateY(-50%);
+    background-color: darkgray;
+    border-radius: 25%;
+}
+#Review .reviewslider .rightarrow {
+	right: 30px;
+	top: 100%;
+	transform: translateY(-50%);
+	background-color: darkgray;
+	border-radius: 25%;
+}
+/* ..........desing part............. */
+#design {
+	padding: 35px 0 35px;
+}
+.title h2 {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.title p {
+	font-size: 15px;
+	line-height: 21px;
+}
+#design .title p:first-child {
+	margin: 20px 0 11px;
+}
+#design .right .card {
+	padding: 25px 35px 25px;
+	border-radius: 15px;
+	border: 0;
+}
+#design .right .card h3 {
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+#design .right .card label {
+	font-size: 14px;
+	line-height: 20px;
+}
+#design .right .card input {
+	padding: 10px 15px;
+	font-size: 14px;
+	line-height: 23px;
+	border-radius: 5px;
+	margin: 10px 0 15px;
+}
+#design .right .custombtn {
+	padding: 14px 5px;
+	font-size: 14px;
+	line-height: 22px;
+	border-radius: 5px;
+}
+/* .........foter part............. */
+#footer {
+	padding: 40px 0 30px;
+}
+#footer .container .row .f1 img {
+	margin-left: 187px;
+}
+#footer .container .row .f1 p {
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 15px;
+	padding-right: 6px;
+	margin-bottom: 15px;
+}
+#footer .footerRight {
+	gap: 0;
+	flex-wrap: wrap;
+}
+#footer .container .footerRight ul {
+	width: 50%;
+	margin-top: 25px;
+}
+#footer .container .footerRight ul h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+#footer .container .footerRight ul li a {
+	font-size: 11px;
+	line-height: 25px;
+	margin-bottom: 40px;
+}
+#footer .container p {
+	font-size: 12px;
+	line-height: 22px;
+}
+}
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	.navbar-toggler:focus {
+		box-shadow: none !important;
+	}
+	.navbar-toggler i {
+		color: var(--praimaricolor);
+		outline: 0;
+		border: 0;
+	}
+	/* .navbar .navbar-nav {
+		column-gap: 0;
+	 }
+	.navbar-nav{
+		padding: 15px;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		row-gap: 8px;
+		background-color: #ffffff;
+		width: 100%;
+		box-shadow: 0px 0px 14px rgb(231 198 198)
+	}
+	.navbar-nav li{
+		background-color:   #7b3691;
+		padding: 5px;
+		width: 48%;
+		border-radius: 3px;
+		border-radius: 5px;
+	} */
+	/* .navbar .custombtn{
+		padding: 10px 42px;
+		font-size: 16px;
+		line-height: 20px;
+		border-radius: 8px;
+		width: 100%;
+	} */
+	/* .......navbar end............... */
+	/* .........bannar start.............. */
+	#bannar_part {
+        padding: 150px 0 100px;
+    }
+	#bannar_part .container h2 {
+		font-size: 61px;
+		line-height: 110%;
+	}
+	#bannar_part .container p {
+		font-size: 19px;
+		margin: 31px 0 37px;
+	}
+	.slick-dots {
+		bottom: 22px;
+	}
+.slick-dots {
+	bottom: 36px;
+}
+/* ........success part..................... */
+#success {
+	padding: 130px 0 100px;
+}
+#success .row {
+	padding: 88px 37px 50px 25px;
+	border-radius: 15px;
+}
+#success .row .left h3 {
+	font-size: 22px;
+    text-align: center;
+}
+#success .row .left h2 {
+	font-size: 22px;
+    text-align: center;
+}
+#success .row .right {
+	flex-direction: row;
+}
+#success .row .right .child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+#success .row .right h2 {
+	font-size: 25px;
+}
+#success .row .right p {
+	margin-top: 10px;
+}
+/* .........servise part.......... */
+.title h2 {
+	font-size: 33px;
+	margin-bottom: 10px;
+}
+.title p {
+	font-size: 14px;
+	line-height: 22px;
+}
+#service .child {
+	padding: 30px 49px 5.66px;
+	border-radius: 10px;
+}
+#service .child:hover {
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+}
+.cards img {
+	margin-bottom: 25px;
+	height: 60px;
+}
+.cards h3 {
+	font-size: 20px;
+}
+.cards p {
+	font-size: 14px;
+	line-height: 26px;
+	margin: 19px auto 25px;
+}
+/* .......work part......... */
+#work {
+	padding: 80px 0;
+	margin-top: 25px;
+}
+.title {
+	margin-bottom: 20px;
+}
+.title h2 {
+	font-size: 27px;
+	margin-bottom: 7px;
+}
+#work .title p {
+	margin-bottom: 100px;
+	font-size: 16px;
+}
+#work .card h3 {
+	font-size: 20px;
+	margin: 24px 0 11px;
+}
+#work .card p {
+	font-size: 11px;
+	line-height: 19px;
+	padding: 0 42px 17px;
+}
+/* ........choose part........... */
+#choose {
+    padding: 130px 0 106px;
+}
+#choose .title h2 {
+    font-size: 45px;
+}
+#choose .title p {
+    padding: 0 77px;
+    margin-bottom: 125px;
+    font-size: 20px;
+}
+/* #choose .left {
+    background: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0;
+    overflow: 0;
+    position: 0;
+    z-index: 0;
+}
+#choose .left::after{
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+} */
+#choose .left .child {
+    margin-bottom: 10px;
+    text-align: center;
+    width: 50%;
+}
+#choose .left h3 {
+	margin: 22px 0 13px;
+	font-size: 23px;
+}
+#choose .left p {
+	font-size: 14px;
+	line-height: 22px;
+}
+#choose .right img {
+	width: 100%;
+	display: inline-block;
+	margin-top: 50px;
+}
+/* .......review part............ */
+#Review {
+	padding-bottom: 150px;
+}
+.title h2 {
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+#Review .title p {
+    padding: 0 190px;
+    margin-bottom: 98px;
+    font-size: 16px;
+    line-height: 26px;
+}
+#Review .reviewslider .slide {
+    padding: 50px 56px;
+    border-radius: 25px;
+    background-color: 0;
+}
+#Review .slide p {
+	margin: 25px 0;
+	font-size: 16px;
+	line-height: 22px;
+}
+#Review .slide .icon {
+    margin-bottom: 28px;
+    font-size: 22px;
+}
+#Review .reviewslider .text h4 {
+	font-size: 20px;
+}
+#Review .reviewslider .text p {
+    font-size: 16px;
+    line-height: 26px;
+}
+#Review .reviewslider .leftarrow{
+    left: 30px;
+    top: 100%;
+	transform: translateY(-50%);
+    background-color: darkgray;
+    border-radius: 25%;
+}
+#Review .reviewslider .rightarrow {
+	right: 30px;
+	top: 100%;
+	transform: translateY(-50%);
+	background-color: darkgray;
+	border-radius: 25%;
+}
+/* ..........desing part............. */
+#design {
+    padding: 120px 0 120px;
+}
+.title h2 {
+	font-size: 40px;
+	margin-bottom: 22px;
+}
+.title p {
+    font-size: 16px;
+    line-height: 26px;
+}
+#design .title p:first-child {
+	margin: 30px 0 11px;
+}
+#design .right .card {
+    padding: 33px 37px 50px;
+    border-radius: 17px;
+    border: 0;
+}
+#design .right .card h3 {
+    margin-bottom: 27px;
+    font-size: 28px;
+}
+#design .right .card label {
+    font-size: 16px;
+    line-height: 26px;
+}
+#design .right .card input {
+    padding: 17px 19px;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 7px;
+    margin: 11px 0 17px;
+}
+#design .right .custombtn {
+	padding: 14px 5px;
+	font-size: 14px;
+	line-height: 22px;
+	border-radius: 5px;
+}
+/* .........foter part............. */
+#footer {
+    padding: 100px 0 33px;
+}
+#footer .container .row .f1 img {
+	margin-left: 0;
+}
+#footer .container .row .f1 p {
+	font-size: 18px;
+	line-height: 28px;
+	margin-top: 40px;
+	padding-right: 45px;
+	margin-bottom: 0px;
+}
+#footer .footerRight {
+	gap: 0;
+	flex-wrap: wrap;
+}
+#footer .container .footerRight ul {
+	width: 25%;
+	margin-top: 25px;
+}
+#footer .container .footerRight ul h3 {
+    font-size: 20px;
+    margin-bottom: 36px;
+}
+#footer .container .footerRight ul li a {
+    font-size: 16px;
+    line-height: 38px;
+    margin-bottom: 40px;
 }
 #footer .container p {
 	font-size: 12px;
